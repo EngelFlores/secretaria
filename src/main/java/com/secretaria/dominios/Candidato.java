@@ -5,6 +5,15 @@ public class Candidato {
     private String nome;
     private String cpf;
     private String dataNascimento;
+    private Long id;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public String getNome() {
         return nome;
@@ -36,7 +45,7 @@ public class Candidato {
                 "nome='" + nome + '\'' +
                 ", cpf='" + cpf + '\'' +
                 ", dataNascimento='" + dataNascimento + '\'' +
+                ", id=" + id +
                 '}';
     }
-
 }

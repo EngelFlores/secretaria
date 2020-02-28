@@ -3,6 +3,7 @@ package com.secretaria.servicos;
 import com.secretaria.dominios.Candidato;
 import com.secretaria.dominios.PreMatricula;
 import com.secretaria.repositorios.CandidatoRepository;
+import com.secretaria.repositorios.PreMatriculaRepository;
 import org.springframework.stereotype.Service;
 
 @Service

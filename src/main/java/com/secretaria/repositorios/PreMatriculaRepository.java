@@ -1,4 +1,4 @@
-package com.secretaria.servicos;
+package com.secretaria.repositorios;
 
 import com.secretaria.dominios.PreMatricula;
 import org.springframework.stereotype.Repository;
@@ -16,4 +16,14 @@ public class PreMatriculaRepository {
         return preMatricula;
     }
 
+
+    public List<PreMatricula> listar() {
+        return preMatriculas;
+    }
+
+    public void alterarStatusCandidato(Long id) {
+        for (int i=0; i< preMatriculas.size(); i++){
+            preMatriculas.get(i);
+        }
+    }
 }
